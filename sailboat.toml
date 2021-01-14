@@ -6,7 +6,7 @@
 #	|_____/ \__,_|_|_|_.__/ \___/ \__,_|\__(_)
                                           
 # Basic Setup:
-name = "Hello World"
+name = "HelloWorld"
 short_name = "helloworld_colewilson"
 email = "cole@colewilson.xyz"
 author = "Cole Wilson"
@@ -15,7 +15,7 @@ description = ""
 url = "https://google.com"
 keywords = ""
 license = "none"
-latest_build = "3.0.1+3d1bdad.2"
+latest_build = "3.0.1+a153289.1"
 
 
 # Resource Setup:

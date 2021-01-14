@@ -15,7 +15,7 @@ try:
   with open("README.md", "r") as fh:
 	  long_description = fh.read()
 except:
-	long_description = "# Hello World\n\n### Contributors\n- Cole Wilson\n### Contact\n<cole@colewilson.xyz> "
+	long_description = "# HelloWorld\n\n### Contributors\n- Cole Wilson\n### Contact\n<cole@colewilson.xyz> "
 
 options = {
 	"name":"helloworld_colewilson",
