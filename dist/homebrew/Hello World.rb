@@ -1,11 +1,11 @@
 # Created with sailboat, the Python releaser
 
-# v1.0.0+build.5
+# v3.0.0
 
 class Hello World < Formula
   include Language::Python::Virtualenv
 
-  desc "A simple program"
+  desc ""
   homepage "https://google.com"
   url "{pyhosted}" # These lines must be configured during release, not build.
   sha256 "{sha256}" # ^^^

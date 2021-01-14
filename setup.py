@@ -15,16 +15,16 @@ try:
   with open("README.md", "r") as fh:
 	  long_description = fh.read()
 except:
-	long_description = "# Hello World\nA simple program\n### Contributors\n- Cole Wilson\n### Contact\n<cole@colewilson.xyz> "
+	long_description = "# Hello World\n\n### Contributors\n- Cole Wilson\n### Contact\n<cole@colewilson.xyz> "
 
 options = {
-	"name":"helloworld_cole-wilson",
-	"version":"1.0.0",
-	"scripts":['bin/helloworld', 'bin/helloworld2'],
+	"name":"helloworld_colewilson",
+	"version":"3.0.0",
+	"scripts":['bin/hello'],
 	"entry_points":{'console_scripts': []},
 	"author":"Cole Wilson",
 	"author_email":"cole@colewilson.xyz",
-	"description":"A simple program",
+	"description":"",
 	"long_description":long_description,
 	"long_description_content_type":"text/markdown",
 	"url":"https://google.com",

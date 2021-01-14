@@ -7,15 +7,15 @@
                                           
 # Basic Setup:
 name = "Hello World"
-short_name = "helloworld_cole-wilson"
+short_name = "helloworld_colewilson"
 email = "cole@colewilson.xyz"
 author = "Cole Wilson"
-short_description = "A simple program"
+short_description = ""
 description = ""
 url = "https://google.com"
 keywords = ""
-latest_build = "1.0.0+build.5"
 license = "none"
+latest_build = "3.0.0"
 
 
 # Resource Setup:
@@ -37,13 +37,12 @@ type = 1
 mac = true
 windows = true
 unix = true
-bundle_id = "com.colewilson.helloworld_cole-wilson"
+bundle_id = "com.colewilson.helloworld_colewilson"
 
 [build.homebrew]
 
 [build.pypi.commands]
-helloworld = ""
-helloworld2 = ""
+hello = ""
 
 [build.pypi.entry_points]
 
