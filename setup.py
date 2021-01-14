@@ -19,7 +19,7 @@ except:
 
 options = {
 	"name":"helloworld_colewilson",
-	"version":"3.0.0",
+	"version":"3.0.1",
 	"scripts":['bin/hello'],
 	"entry_points":{'console_scripts': []},
 	"author":"Cole Wilson",
