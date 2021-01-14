@@ -1,0 +1,60 @@
+#	  _____       _ _ _                 _     
+#	 / ____|     (_) | |               | |  _ 
+#	| (___   __ _ _| | |__   ___   __ _| |_(_)
+#	 \___ \ / _` | | | '_ \ / _ \ / _` | __|  
+#	 ____) | (_| | | | |_) | (_) | (_| | |_ _ 
+#	|_____/ \__,_|_|_|_.__/ \___/ \__,_|\__(_)
+                                          
+# Basic Setup:
+name = "Hello World"
+short_name = "helloworld_cole-wilson"
+email = "cole@colewilson.xyz"
+author = "Cole Wilson"
+short_description = "A simple program"
+description = ""
+url = "https://google.com"
+keywords = ""
+latest_build = "1.0.0+build.5"
+license = "none"
+
+
+# Resource Setup:
+[resources]
+icon = ""
+data_files = []
+modules = []
+file = "main.py"
+no_import = []
+
+
+# Plugin Commands:
+
+
+# Build Routines:
+[build.pyinstaller]
+_run = false
+type = 1
+mac = true
+windows = true
+unix = true
+bundle_id = "com.colewilson.helloworld_cole-wilson"
+
+[build.homebrew]
+
+[build.pypi.commands]
+helloworld = ""
+helloworld2 = ""
+
+[build.pypi.entry_points]
+
+
+# Release Routines:
+[release.github]
+
+
+# Other:
+[git]
+github = "cole-wilson/helloworld"
+
+
+# Thank you for using Sailboat!
