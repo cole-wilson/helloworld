@@ -1,6 +1,6 @@
 # Created with sailboat, the Python releaser
 
-# v3.0.1
+# v3.0.1+3d1bdad.2
 
 class Hello World < Formula
   include Language::Python::Virtualenv
